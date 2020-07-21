@@ -1,0 +1,94 @@
+
+{{!-- =========== HEADER ============= --}}
+
+<div class="container-fluid">
+
+    <div class="row">
+        <div class="col">
+            <div class="text-center">
+                <img class="img-fluid" src="/assets/images/burger.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="text-center">
+                <h1>BURGERIZER</h1>
+            </div>
+        </div>
+    </div>
+     
+</div>
+
+{{!-- =========== DISPLAY BURGERS ============= --}}
+<div class="container-fluid">
+    <div class="row">
+
+        <div id="notDevouredBurger" class="col-md-6 d-flex justify-content-center">
+            <div>
+                <h5>YOUR LIST OF BURGERS</h5>
+            {{!-- </div>
+            <div> --}}
+                <ul>
+                    {{#each burgers}}
+                        {{#unless devoured}}
+                            <li>       
+                                {{this.burger_name}}
+                                <button data-id="{{this.id}}" class="devourIt">DEVOUR IT</button>
+                            </li>
+                        {{/unless}}
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+
+        <div id="devouredBurger" class="col-md-6 d-flex justify-content-center">
+            <div>
+                <h5>DEVOURED BURGERS</h5>
+            {{!-- </div>
+            <div> --}}
+                <ul>
+                    {{#each burgers}}
+                        {{#if devoured}}
+                            <li>       
+                                {{this.burger_name}}
+                            </li>
+                        {{/if}}
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+{{!-- =========== ADD BURGER Section ============= --}}
+
+<div class="container-fluid" id="addBurgerBlock">
+
+    <div class="row">
+        <div class="col">
+            <div class="text-center">
+                <h3>ADD A BURGER TO BURGERIZE</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <div class="text-center">
+                        <form class="create-form">
+
+            <div class="form-group">
+                <input type="text" id="burgerName" name="burgerName" placeholder="Add Burger name here ..." maxlength="50">
+
+            <button type="submit" id="newBurger">BURGERIZE</button>
+        </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+

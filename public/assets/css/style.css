@@ -1,0 +1,50 @@
+/* add your css here */
+
+*{
+    background-color:orange;
+}
+
+h1{
+    color: maroon;
+    font-family: 'Orbitron', sans-serif;
+}
+
+h3{
+    color: maroon;
+    font-family: 'Russo One', sans-serif;
+}
+
+h5{
+    color: maroon;
+}
+
+#notDevouredBurger{
+    font-size: 15px;
+    font-family: 'Abel', sans-serif;
+}
+
+#devouredBurger{
+    font-size: 15px;
+    color: rgb(66, 93, 26);
+    font-family: 'Abel', sans-serif;
+    font-weight: bold;
+}
+.devourIt{
+    font-size: 0.5rem !important;
+    width: fit-content;
+    height: fit-content;
+    background-color: maroon;
+    color: whitesmoke;
+}
+
+#burgerName{
+    background-color: whitesmoke;
+    font-size: 13px;
+    width: 250px;
+}
+
+#newBurger{
+    background-color: maroon;
+    color: whitesmoke;
+    font-size: 15px;
+}
