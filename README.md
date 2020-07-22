@@ -2,7 +2,6 @@
 
 Often you create a wish list to complete and feel accomplished when thats checked mark. This application is a sample of wish list of burgers I want to have and once completed I checked it as devoured. This app was developed using EXPRESS, EXPRESS-HANDLEBARS and MySQL.
 
-![LOGO](/screenshots/burger_screenshot.png)
 
 ## Repository 
 
@@ -104,9 +103,9 @@ NOTE : Kindly update the connection link in /public/initialize.js file to the co
 Run the following commands in your terminal window 
 
 ```bash
-git clone 
+git clone https://github.com/tylermurton/Handleburger.git
 
-cd 
+cd Handleburger
 
 npm install
 ```
