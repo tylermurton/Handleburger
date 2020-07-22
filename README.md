@@ -13,7 +13,7 @@ Click the link below to check the repository :
 
 The application is deployed on HEROKU. Click below to checkout 
 
-[Go to Heroku Link](/)
+[Go to Heroku Link](https://handleburger-app.herokuapp.com/)
 
 ## Requirements
 
