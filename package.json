@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ianasqazi/Burger-Handlebars.git"
+    "url": ""
   },
   "keywords": [
     "burger",
     "handlebars",
     "express"
   ],
-  "author": "ianasqazi",
+  "author": "tylermurton",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ianasqazi/Burger-Handlebars/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/ianasqazi/Burger-Handlebars#readme",
+  "homepage": "",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
